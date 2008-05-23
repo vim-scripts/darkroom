@@ -1,0 +1,14 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2246
+
+This is my attempt to create a simple WriteRoom/DarkRoom like environment in Vim. 
+
+It is probably not ready for prime-time yet. 
+
+It will almost certainly interact badly with any other plugins/scripts that hack buffers as it uses two hidden buffers to get the column feel of DarkRoom.
+
+You will want to ":set wrap lbr" for it to work most effectively.
+You will want to maximize vim before calling ":colorscheme darkroom" for it to look reasonable.
+You will also need to use :qa to exit (or :q several times in succession)
+
+
+
